@@ -1,0 +1,13 @@
+# Example configuration for systemd-tray
+# Copy to ~/.config/systemd-tray/services.yaml and adjust as needed
+services:
+  - name: ComfyUI
+    unit: comfyui.service
+    logs:
+      follow: true
+      lines: 200
+  - name: Syncthing
+    unit: syncthing.service
+    logs:
+      follow: true
+      lines: 100

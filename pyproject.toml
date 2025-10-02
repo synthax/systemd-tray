@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "systemd-tray"
+version = "0.1.0"
+description = "Qt tray app to manage user systemd services"
+authors = ["Synthax <synthax@example.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["systemd", "tray", "qt"]
+packages = [{ include = "systemd_tray" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.14"
+PySide6 = "^6.6"
+PyYAML = "^6.0"
+
+[tool.poetry.scripts]
+systemd-tray = "systemd_tray.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.5.0"]
+build-backend = "poetry.core.masonry.api"
