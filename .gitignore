@@ -1,0 +1,28 @@
+# Python artefacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+
+# Poetry
+poetry.lock
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# PyInstaller
+*.spec
+*.bin
+*.bundle/
+*.exe
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
