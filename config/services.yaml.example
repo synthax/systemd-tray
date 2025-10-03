@@ -6,8 +6,12 @@ services:
     logs:
       follow: true
       lines: 200
+    open:
+      - label: Web UI
+        url: "http://127.0.0.1:8188"
   - name: Syncthing
     unit: syncthing.service
     logs:
       follow: true
       lines: 100
+    open: "http://127.0.0.1:8384"

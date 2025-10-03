@@ -23,4 +23,4 @@ mkdir -p ~/.config/systemd-tray
 cp config/services.yaml.example ~/.config/systemd-tray/services.yaml
 ```
 
-Use the in-app **Manage services…** dialog to add/remove user units discovered from `systemctl --user`. Each entry stores a friendly name, unit id, and optional log settings.
+Use the in-app **Manage services…** dialog to add/remove user units discovered from `systemctl --user`. Each entry stores a friendly name, unit id, optional log settings, and (if you add an `open:` section) quick launch actions like URLs or shell commands.

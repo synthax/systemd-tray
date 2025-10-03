@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "systemd-tray"
-version = "0.1.0"
+version = "0.2.0"
 description = "Qt tray app to manage user systemd services"
 authors = ["Synthax <synthax@example.com>"]
 license = "MIT"
